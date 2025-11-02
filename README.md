@@ -1,5 +1,5 @@
 # Machine Learning/Deep Learning Model Notes
-## Classification
+## Classification Error Performance Evaluation
 * **Accuracy** in classification porblems is the **number of correct predictions** made by the model divided by the **total number of predictions**. How many prediction did you get right as a percentage?
   * Accuracy is a good indicator of model performance on balanced data only
 * **Recall** is the ability of a model to find all the relevant cases within a dataset
@@ -25,6 +25,9 @@
 
 ## Calculations
 <img width="815" height="432" alt="image" src="https://github.com/user-attachments/assets/4d6b1f79-2a40-4da2-a2fa-dcd2e461e457" />  
+
+## Regression Error Performance Evaluation  
+
 
 
 
