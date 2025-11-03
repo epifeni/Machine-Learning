@@ -1,3 +1,25 @@
+# Proobability Distributions
+* Continuous Probability Distributions - Probability Density Functions
+ * **Normal Distirbution** - Most relevant to business decissions
+ * *If a population approximate a standard normal distribution, then we can make some powerful inferences about it once we know its Mean and Standard Deviation - Using a Z-table*
+ *  * Bell Curve or Gaussian Dristibution
+    * All Normal curves:
+     * Is symmetrical about the mean
+     * 99.73% of values fall under 3 Standard Deviaitons
+     * Mean does not have to equal 0 and Standard Deviation does not have to equal 1
+    * Normal distributions are symmetrical
+    * Not-Normal distributions display an asymmetrical skew
+    * Probablity of any specific outcome is zero
+    * Probabilites can only be calculated over a range of outcomes
+    * In a normal distribution - mean, median and mode are all equal to the same value
+     * **Standard Normal Distribution** - is a special case where the mean = zero and it's Standard Deviation = 1
+      * 68.27% of all values fall under +or- 1 Standard Deviatoin
+      * 96.45% of all the values fall under +or- 2 Standard Deviations
+      * 99.73% of all the values fall under +or- 3 Standard Deviations
+ * Exponential Distribution
+ * Beta Distribution
+* Discrete Probability Distributions - Probability Mass Functions (Binomial Distribution)
+
 # Machine Learning/Deep Learning Model Notes  
 
 [Machine Learning Cheat-Sheet](https://scikit-learn.org/stable/machine_learning_map.html)
