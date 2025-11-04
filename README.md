@@ -26,7 +26,7 @@
 # Statistics
 * Population - every member of a group we want to study
 * Sample - small set of random members of the population
-*    * >30 random sample will almost always reflect the populaiton
+*    * Approximately 30 or greater random sample will almost always reflect the populaiton
      * Bias in sampling
          * **Selection Bias** - favours members of a population that are more inclined or able to answer polls (more willing to respond the the sampling technique)
             * Undercoverage Bias - making too few observations or omitting entire segments of a population
