@@ -161,13 +161,31 @@ Uses when the population Standard Deviation is not known
 * T-test also considers sample variances
 
 ### Types of Student's T-Test
-* Tests the null hypothesis that hte populatin mean is equal to a specified value $\mu$ based on a sample mean $\bar{x}$
-* 
+* One-sample t-test - Tests the null hypothesis that the populatin mean is equal to a specified value $\mu$ based on a sample mean $\bar{x}$
+*    * Check if the sample mean equals populaiton mean without knowing the Standard Deviation of the population
+t-statistic\
+<img width="473" height="304" alt="image" src="https://github.com/user-attachments/assets/74ca8d02-bb4f-4e38-b072-dc691bb38314" />
 
+* Independent two-sample t-test - Tests the null hypothesis that two sample means $\bar{x1}$ and $\bar{x2}$ are equal
+     * Check if the mean test scores of two seperate samples of students have a statistically significant difference
+<img width="892" height="298" alt="image" src="https://github.com/user-attachments/assets/b141a927-e928-49be-9b46-ae9f5348fa27" />
 
+t-statistic depends on 3 scenarios\
+* Equal  sample size, equal variance
+* Unequal sample size, equal variance
+* Equal orunequal sample sizes, unequal variance (**Most Common - AKA Welch-Satterthwaite Formula**)
+<img width="659" height="224" alt="image" src="https://github.com/user-attachments/assets/2c341383-8ee0-46ef-9360-8a9355ddd95b" />
+   * General formula when variences of the samples are close enough to being equal
+<img width="317" height="52" alt="image" src="https://github.com/user-attachments/assets/833a7b61-4acd-4fd3-b4a1-a2fb72e7adbd" />
 
+* Dependent, paired-sample t-test - Used when samples are dependent
+     * One sample has been tested twice (repeated measurements)
+     * two sampels have been matched or paired
+     * Check if the same group of students have improved results on the test scores  before prep couse and after prep course
 
-
+t Vs z distribuiton\
+t distribution approaches the z distribution as the degrees of freedom increase - i.e. if the sample size is big enough, use the normal distribution (n = 30 is a standard cut-off point to switch over to a normal distribution)
+<img width="876" height="278" alt="image" src="https://github.com/user-attachments/assets/5af5b91f-6f45-4e09-b847-561fd854d828" />
 
 
 # Machine Learning/Deep Learning Model Notes  
