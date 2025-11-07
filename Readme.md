@@ -70,7 +70,7 @@ Takes both the sample and population into consideration
 
 We can say that with a 95% **confidence level** that the **populaiton parameter** lies within a **confidence interval** of plus-or-minus 2 **Standard Errors** of the **sample statistic**
 * Standard Error describes how a sample statistic varies from the population parameter. It **does not** describe how individual values deviate within the statistic (this would just be the standard deviation of the sample)
-* We can say that the sample statistic (p-hat) is a **point estimator** of the population parameter P
+* We can say that the sample statistic (p-hat) is a **point estimator** of the population parameter P<br>
 <img width="757" height="429" alt="image" src="https://github.com/user-attachments/assets/8787fa23-0b98-4612-8e21-ef8958225be2" />
 
 # Hypothesis Testing  
@@ -90,13 +90,13 @@ The application of statistical methods to real-world questions
 * Assuming out null hypothesis is valid, if the probability of observing these results of the null hypothiesis (after recording the results) is very small (inside of 0.05 - **The Level of Significance [alpha]**), then we reject the null hypothesis<br>
   * i.e. Given an assumption, the probability of a particular observed event is exceptionally small, then you can conclude that the assumption is probaby not correct<br>
 * If alpha = 0.05 and the alternative hypothesis has an alpha that is **less than* the null hypothesis, then the **left-tail** of the probability curve has an area of 0.05<br>
-<img width="343" height="221" alt="image" src="https://github.com/user-attachments/assets/b0cb61a3-b6cd-4d2f-bab7-b52c539e1a2f" />
+<img width="343" height="221" alt="image" src="https://github.com/user-attachments/assets/b0cb61a3-b6cd-4d2f-bab7-b52c539e1a2f" /><br>
 * If alpha = 0.05 and the alternative hypothesis has an alpha that is **more than* the null hypothesis, then the **right-tail** of the probability curve has an area of 0.05<br>
-<img width="290" height="228" alt="image" src="https://github.com/user-attachments/assets/d0c84b0f-8a6f-43d6-89af-7bed40201a8a" />
+<img width="290" height="228" alt="image" src="https://github.com/user-attachments/assets/d0c84b0f-8a6f-43d6-89af-7bed40201a8a" /><br>
 * If alpha = 0.05 and the alternative hypothesis has an alpha that is **not equal to* the null hypothesis, then the two tales of the probability curve **share** an area of 0.05 (H1 not= null)<br>  
-<img width="539" height="60" alt="image" src="https://github.com/user-attachments/assets/00e6180e-2831-410a-8718-2526905cdb7a" /> 
+<img width="539" height="60" alt="image" src="https://github.com/user-attachments/assets/00e6180e-2831-410a-8718-2526905cdb7a" /><br> 
 * These areas establish the **critical values** or Z-scores <br>
-<img width="575" height="235" alt="image" src="https://github.com/user-attachments/assets/d8976ee0-c177-4563-b597-41a0d9967ecf" />  
+<img width="575" height="235" alt="image" src="https://github.com/user-attachments/assets/d8976ee0-c177-4563-b597-41a0d9967ecf" /><br>
 
 ## 2 Types of Tests - Test of Means and Test of Propotions
 * Each has it's own test statistic to calculate
@@ -105,9 +105,9 @@ The application of statistical methods to real-world questions
 
 ### Calculating Test Statistics
 * When working with mean<br>
-<img width="624" height="134" alt="image" src="https://github.com/user-attachments/assets/151ab9c9-7959-4ba9-b8d8-54852c87a1f9" />
+<img width="624" height="134" alt="image" src="https://github.com/user-attachments/assets/151ab9c9-7959-4ba9-b8d8-54852c87a1f9" /><br>
 * When working with populations<br>
-<img width="509" height="161" alt="image" src="https://github.com/user-attachments/assets/5eb77b53-157f-4094-b084-0ae4cab403fb" />
+<img width="509" height="161" alt="image" src="https://github.com/user-attachments/assets/5eb77b53-157f-4094-b084-0ae4cab403fb" /><br>
 
 ## 2 Ways of Performing Hypothesis Tests  
 ### Traditional Test
@@ -119,10 +119,10 @@ The application of statistical methods to real-world questions
 1. State the null hypothesis
 2. State the alternative hypothesis
 3. Set a level of significance (alpha)
-4. Determine the test type (left tail,  right tail or two tail based on the null an alternative hypothesis)\
-<img width="550" height="134" alt="image" src="https://github.com/user-attachments/assets/62461180-91c7-4e11-8cec-ea0e343b8e7c" />
+4. Determine the test type (left tail,  right tail or two tail based on the null an alternative hypothesis)<br>
+<img width="550" height="134" alt="image" src="https://github.com/user-attachments/assets/62461180-91c7-4e11-8cec-ea0e343b8e7c" /><br>
 5. Calculate the test statistic (using the Z formula)<br>
-<img width="171" height="105" alt="image" src="https://github.com/user-attachments/assets/1046c2b4-346d-49b0-80de-5dd6e27eae4d" />
+<img width="171" height="105" alt="image" src="https://github.com/user-attachments/assets/1046c2b4-346d-49b0-80de-5dd6e27eae4d" /><br>
 6. Calculate Critical Value
    * Do a z-table lookup of the alpha value to get the z value
 7. Check if the value Rejects or Fail to Reject the null hypothesis
@@ -137,9 +137,9 @@ The application of statistical methods to real-world questions
 2. State the alternative hypothesis
 3. Set a level of significance (alpha)
 4. Determine the test type (left tail,  right tail or two tail based on the null an alternative hypothesis)<br>
-<img width="550" height="134" alt="image" src="https://github.com/user-attachments/assets/62461180-91c7-4e11-8cec-ea0e343b8e7c" />
+<img width="550" height="134" alt="image" src="https://github.com/user-attachments/assets/62461180-91c7-4e11-8cec-ea0e343b8e7c" /><br>
 5. Calculate the test statistic (using the Z formula)<br>
-<img width="171" height="105" alt="image" src="https://github.com/user-attachments/assets/1046c2b4-346d-49b0-80de-5dd6e27eae4d" />
+<img width="171" height="105" alt="image" src="https://github.com/user-attachments/assets/1046c2b4-346d-49b0-80de-5dd6e27eae4d" /><br>
 6. P-Value
    * z-table lookup to get the p value
 7. Check if the value Rejects or Fail to Reject the null hypothesis
@@ -164,19 +164,19 @@ Uses when the population Standard Deviation is not known
 * One-sample t-test - Tests the null hypothesis that the populatin mean is equal to a specified value $\mu$ based on a sample mean $\bar{x}$
 *    * Check if the sample mean equals populaiton mean without knowing the Standard Deviation of the population
 t-statistic<br>
-<img width="473" height="304" alt="image" src="https://github.com/user-attachments/assets/74ca8d02-bb4f-4e38-b072-dc691bb38314" />
+<img width="473" height="304" alt="image" src="https://github.com/user-attachments/assets/74ca8d02-bb4f-4e38-b072-dc691bb38314" /><br>
 
 * Independent two-sample t-test - Tests the null hypothesis that two sample means $\bar{x1}$ and $\bar{x2}$ are equal
      * Check if the mean test scores of two seperate samples of students have a statistically significant difference
-<img width="892" height="298" alt="image" src="https://github.com/user-attachments/assets/b141a927-e928-49be-9b46-ae9f5348fa27" />
+<img width="892" height="298" alt="image" src="https://github.com/user-attachments/assets/b141a927-e928-49be-9b46-ae9f5348fa27" /><br>
 
 t-statistic depends on 3 scenarios
 * Equal  sample size, equal variance
 * Unequal sample size, equal variance
 * Equal orunequal sample sizes, unequal variance (**Most Common - AKA Welch-Satterthwaite Formula**)
-<img width="659" height="224" alt="image" src="https://github.com/user-attachments/assets/2c341383-8ee0-46ef-9360-8a9355ddd95b" />
+<img width="659" height="224" alt="image" src="https://github.com/user-attachments/assets/2c341383-8ee0-46ef-9360-8a9355ddd95b" /><br>
    * General formula when variences of the samples are close enough to being equal
-<img width="317" height="52" alt="image" src="https://github.com/user-attachments/assets/833a7b61-4acd-4fd3-b4a1-a2fb72e7adbd" />
+<img width="317" height="52" alt="image" src="https://github.com/user-attachments/assets/833a7b61-4acd-4fd3-b4a1-a2fb72e7adbd" /><br>
 
 * Dependent, paired-sample t-test - Used when samples are dependent
      * One sample has been tested twice (repeated measurements)
@@ -185,17 +185,17 @@ t-statistic depends on 3 scenarios
 
 t Vs z distribuiton\
 t distribution approaches the z distribution as the degrees of freedom increase - i.e. if the sample size is big enough, use the normal distribution (n = 30 is a standard cut-off point to switch over to a normal distribution)
-<img width="876" height="278" alt="image" src="https://github.com/user-attachments/assets/5af5b91f-6f45-4e09-b847-561fd854d828" />
+<img width="876" height="278" alt="image" src="https://github.com/user-attachments/assets/5af5b91f-6f45-4e09-b847-561fd854d828" /><br>
 
 
 # Machine Learning/Deep Learning Model Notes  
 
-[Machine Learning Cheat-Sheet](https://scikit-learn.org/stable/machine_learning_map.html)
+[Machine Learning Cheat-Sheet](https://scikit-learn.org/stable/machine_learning_map.html)<br>
 
 ## <u>Supervised Learning</u>  
 
-Machine learing process for supervised learining  
-<img width="951" height="302" alt="image" src="https://github.com/user-attachments/assets/04cd0896-5b56-42eb-9fec-0f3f77bc13eb" />
+Machine learing process for supervised learining<br>
+<img width="951" height="302" alt="image" src="https://github.com/user-attachments/assets/04cd0896-5b56-42eb-9fec-0f3f77bc13eb" /><br>
 
 ### Classification Error Performance Evaluation
 * Model tires to predict categorical values (i.e. dog/cat, spam/not-spam)
@@ -213,7 +213,7 @@ Machine learing process for supervised learining
    * Harmonic mean punishes extreme differences between precision and recall
 
 #### Confusion Matrix - Compares the predicted values to the true values
-<img width="851" height="400" alt="image" src="https://github.com/user-attachments/assets/4176ae46-8a37-45d7-ab33-c6eeb49f5f27" />  
+<img width="851" height="400" alt="image" src="https://github.com/user-attachments/assets/4176ae46-8a37-45d7-ab33-c6eeb49f5f27" /><br> 
 
 #### Correct Predictions
 * *True positive* - the person having the disease and the model correctly predicting that they have the disease
@@ -223,7 +223,7 @@ Machine learing process for supervised learining
 * *False negative* (Type 2 Error) - the person does have the disease but the model inaccuraetly predicts that they do not have the disease.
 
 #### Calculations
-<img width="815" height="432" alt="image" src="https://github.com/user-attachments/assets/4d6b1f79-2a40-4da2-a2fa-dcd2e461e457" />  
+<img width="815" height="432" alt="image" src="https://github.com/user-attachments/assets/4d6b1f79-2a40-4da2-a2fa-dcd2e461e457" /><br>
 
 ### Regression Error Performance Evaluation  
 * Model tries to predict continuous values
@@ -239,8 +239,8 @@ Machine learing process for supervised learining
   * Compare the Root Mean Squared Error to the mean values to get an idea of significance
 
 ## <u>Unsupervised Learning</u>  
-Machine learning process for unsupervised learning
-<img width="926" height="134" alt="image" src="https://github.com/user-attachments/assets/3919cd9e-2131-4259-b56c-3dc2ab515521" />
+Machine learning process for unsupervised learning<br>
+<img width="926" height="134" alt="image" src="https://github.com/user-attachments/assets/3919cd9e-2131-4259-b56c-3dc2ab515521" /><br>
 
 * There is no Test/Train split
   * So, train ad fit the model on all the data and afterwards, perform some sort of transformation on the data set such as Dimentionality Reduction
@@ -254,27 +254,27 @@ Machine learning process for unsupervised learning
 # Deep Learning
 
 ## Perceptron Model
-<img width="929" height="296" alt="image" src="https://github.com/user-attachments/assets/1fcfa38d-deaf-408a-9066-881d7c1dd5d9" />
+<img width="929" height="296" alt="image" src="https://github.com/user-attachments/assets/1fcfa38d-deaf-408a-9066-881d7c1dd5d9" /><br>
 1. if f(X) is a sum then, y = x1 + x2
 
 2. There is no way that this model can work, so we can add in adjustable weights to multiply against the inputs of x<br>
-<img width="935" height="250" alt="image" src="https://github.com/user-attachments/assets/5427b94b-69d5-4854-8ce8-0cb7116f72c6" />
+<img width="935" height="250" alt="image" src="https://github.com/user-attachments/assets/5427b94b-69d5-4854-8ce8-0cb7116f72c6" /><br>
 Now y = x1w1 + x2w2<br>
 weight can be updated to affect the output y<br>
 
 3. In the case that the impt values are zero, we can add a bias term b to the input
     * The way to think about the bias is that the multiplication of (x1 * w1) i.e. the input times its weights has to overcome the bias value in order to have an affect on the output of y
-<img width="946" height="278" alt="image" src="https://github.com/user-attachments/assets/cf78e8c9-81da-4e1a-8822-44f2084c1047" />
+<img width="946" height="278" alt="image" src="https://github.com/user-attachments/assets/cf78e8c9-81da-4e1a-8822-44f2084c1047" /><br>
 Now y = (x1w1 + b) + (x2w2 + b)<br>
 
 4. Inputs can be expanded out all the way to n number of inputs<br>
-<img width="924" height="308" alt="image" src="https://github.com/user-attachments/assets/61c26984-e0f2-4781-a154-c5f26208f342" />
+<img width="924" height="308" alt="image" src="https://github.com/user-attachments/assets/61c26984-e0f2-4781-a154-c5f26208f342" /><br>
 
 5. This model can be expanded to have X be a **tensor** of information, where a tensor is an n-dimentional matrix<br>
-<img width="528" height="211" alt="image" src="https://github.com/user-attachments/assets/1c44b112-be48-40ae-b6b1-835bd21ddad1" />
+<img width="528" height="211" alt="image" src="https://github.com/user-attachments/assets/1c44b112-be48-40ae-b6b1-835bd21ddad1" /><br>
 
 6. This equation can be simplified by adding up all the biases into one bias labeled B<br>
-<img width="907" height="307" alt="image" src="https://github.com/user-attachments/assets/6356480c-6ab5-429f-a97e-3f95cb8fdb3e" />
+<img width="907" height="307" alt="image" src="https://github.com/user-attachments/assets/6356480c-6ab5-429f-a97e-3f95cb8fdb3e" /><br>
 
  
 
