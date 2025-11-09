@@ -351,7 +351,7 @@ The learning process for a network
 * a=$\theta$(z)
 * This resulting a then feeds into the next layer (and so on)
 2. for each layer we are computing the z and a:
-  * z^L^ = w^l^a^L-1^+b^l^
+  * z^{L} = w^l^a^L-1^+b^l^
   * a^l = $\theta$(z^L^)
 
 
