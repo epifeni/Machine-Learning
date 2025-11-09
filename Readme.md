@@ -339,13 +339,14 @@ For classificaton problems, we generally use the **cross entropy** loss function
 **For perfroming classification, especially multi-class classification that's greater than binary classification (greater than 2), we will us coross entorpy to be our cost function**<br/> 
 
 ## Backpropagation
-Moving backwords through a network to update the weights and the biases
+[documentation](http://neuralnetworksanddeeplearning.com/chap2.html)<br/>
+Moving backwords through a network to update the weights and the biases<br/>
 
-**Way of finding out how the cost function results change with respect to the weights in the network so we can update teh weights and to minimise the cost function**
+**Way of finding out how the cost function results change with respect to the weights in the network so we can update teh weights and to minimise the cost function**<br/>
 
-**We want to understand how sensitive the cost function is to changes in w**
+**We want to understand how sensitive the cost function is to changes in w**<br/>
 
-The learning process for a network
+The learning process for a network<br/>
 1. Using input x, set the activation function a for the input layer
 * z = wx+b
 * a=$\theta$(z)
