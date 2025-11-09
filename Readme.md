@@ -317,9 +317,14 @@ Multi-class Classification
 
 <img width="748" height="333" alt="image" src="https://github.com/user-attachments/assets/935236e9-228f-4492-ac6b-39025b875e0f" /><br/>
 
-# Cost Functions and Gradient Descent (Gradient Descent = loss/error functions)
+## Cost Functions (loss/error functions) and Gradient Descent 
 Last output layer $\hat{y}$ <br/>
-
+**Evaluating how far off our prediction is**
+* during the training/fitting process - take the estimated output of te network and compare them to the ral values of the label
+* cost function - how far off you are from the true value based off your prediction (should be an average)
+    * y - represents the true value
+    * a - represents the neuron's prediction
+* w*x +b = z --> z passes into activation function $\theta$(z) = a
 
 
 
